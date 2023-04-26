@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "Master",
+      "content": "Witaj w moim komunikatorze!",
+      "timestamp": "2022-05-01T12:30:00Z"
+    },
+    {
+      "id": 2,
+      "author": "Master",
+      "content": "Wysyłaj wiadomości i odczytuj wszystko na bierząco , dziel się spostrzeżeniami z innymi oraz korzystaj do woli!",
+      "timestamp": "2022-05-02T08:15:00Z"
+    },
+    {
+      "id": 3,
+      "author": "Master",
+      "content": "Compotem esse, ne quid fraudis stuoprive ferocia pare , Quem di diligunt, adolescens moritur,Si animum vicisti potius quam animus te, est quod gaudeas , Bene facta male locata male facta arbitror,Qui vincit non est victor nisi victus fatetur",
+      "timestamp": "2022-05-03T16:45:00Z"
+    },
+    {
+      "author": "Arko",
+      "content": "a gdyby tak walnąć tym wszystkim i wyjechać w bieszczady ?",
+      "timestamp": "2023-04-26T12:41:46.518Z",
+      "id": 4
+    },
+    {
+      "author": "Testowy2",
+      "content": "Zawsze trzeba być dobrej myśli!",
+      "timestamp": "2023-04-26T12:45:24.735Z",
+      "id": 5
+    },
+    {
+      "author": "Testowy1",
+      "content": "Otóż to!",
+      "timestamp": "2023-04-26T12:45:49.989Z",
+      "id": 6
+    },
+    {
+      "author": "Sprzedawca_Opla",
+      "content": "Sprzedam opla.",
+      "timestamp": "2023-04-26T12:46:32.015Z",
+      "id": 7
+    }
+  ],
+  "middlewares": [
+    {
+      "id": "cors",
+      "after": "routes",
+      "type": "cors",
+      "cors": {
+        "origin": "*",
+        "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+        "optionsSuccessStatus": 204
+      }
+    }
+  ]
+}
